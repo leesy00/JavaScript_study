@@ -1,89 +1,135 @@
-<!doctype html> <!-- html5  -->
+<!doctype html>
+<!-- html5  -->
 <html>
 
 <head>
-	<title> html example </title>
-	<meta charset="UTF-8"
-	<style type="text/css">
-		#selected {
-			color:red;
-		}
-	</style>
+    <title> html example </title>
+    <meta charset="UTF-8">
+     <!--모바일에서의 크기 맞춤 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style type="text/css">
+    #selected {
+    color:red;
+    }
+    </style>
 </head>
-<body>
-	<h1> HTML 정리 </h1>  
-	<UL>
-		<li> "strong> : 진하게 표시" HTML<strong> "HTML 진하게 표시</strong> HTML </li>
-		<li> "h1> : 제목 " <!--<h1> 제목 </h1> --> </li>
-		<li> "h2> : 소제목 " <!--<h2> 소제목 </h2> --> </li>
-		<br>
-		<li> "a href>: 링크" <a href="#"> 링크 </a> </li>
-		<li> "a target>: 새팁에서 링크열기" <a href="#" target="_blank"> 링크걸기 </a> </li>
-		<li> "a title>: 링크 title" <a href="#" title="링크title입니다."> 링크 </a> </li>
-	</UL>
-	<UL>
-		<li> "li> : list " <!--<li> list </li> --> </li>
-		<li> "ul> : unorder list " <!--<ul> list </ul> --> </li>
-		<li> "ol> : order list " <!--<ol> list </ol> --> </li>
 
-	</UL>
-	<UL>
-		<li> "p> : 줄바꿈 단락구분 " <!--<p> 줄바꿈 단락구분 </p> --> </li>
-		<li> "br> : 줄바꿈 " <!--<br> 줄바꿈  --> </li>
-		<li> "img> : 이미지출력 " <img src='./image/beverage-3157395_1280.jpg' width="100" alt="컴퓨터이미지" title="제목:컴퓨터이미지"> <!-- 이미지출력 width="200" height="300" alt:alternative text title:제목--></li>
-	</UL>
-	<UL>
-		<li> "table> : 표 " <!--<table> table </table> --> </li>
-		<li> "tr> : 행 " <!--<tr> table </tr> --> </li>
-		<li> "td> : 테이블데이터 (셀) " <!--<td> table </td> --> </li>
-	</UL>
-	<table border="1">
-		<tr>
-			<td> 이름 </td> <td> 성별 </td>
-		</tr>		
-		<tr>
-			<td> 이름1 </td> <td> 성별1 </td>
-		</tr>
-	</table>
-	<table border="2">
-    <tr>
-        <td>이름</td>     <td>성별</td>   <td>주소</td>
-    </tr>
-    <tr>
-        <td>최진혁</td>  <td>남</td>      <td >청주</td>
-    </tr>
-    <tr>
-        <td>최유빈</td>  <td>여</td>      <td>청주</td>
-    </tr>
-</table>
-<table border="2">
-    <thead>
+<body>
+    <h1> HTML 정리 </h1>
+    <UL>
+        <li> "strong> : 진하게 표시" HTML<strong> "HTML 진하게 표시</strong> HTML </li>
+        <li> "h1> : 제목 "
+            <!--<h1> 제목 </h1> -->
+        </li>
+        <li> "h2> : 소제목 "
+            <!--<h2> 소제목 </h2> -->
+        </li>
+        <br>
+        <li> "a href>: 링크" <a href="#"> 링크 </a> </li>
+        <li> "a target>: 새팁에서 링크열기" <a href="#" target="_blank"> 링크걸기 </a> </li>
+        <li> "a title>: 링크 title" <a href="#" title="링크title입니다."> 링크 </a> </li>
+    </UL>
+    <UL>
+        <li> "li> : list "
+            <!--<li> list </li> -->
+        </li>
+        <li> "ul> : unorder list "
+            <!--<ul> list </ul> -->
+        </li>
+        <li> "ol> : order list "
+            <!--<ol> list </ol> -->
+        </li>
+
+    </UL>
+    <UL>
+        <li> "p> : 줄바꿈 단락구분 "
+            <!--<p> 줄바꿈 단락구분 </p> -->
+        </li>
+        <li> "br> : 줄바꿈 "
+            <!--<br> 줄바꿈  -->
+        </li>
+        <li> "img> : 이미지출력 " <img src='./image/beverage-3157395_1280.jpg' width="100" alt="컴퓨터이미지" title="제목:컴퓨터이미지">
+            <!-- 이미지출력 width="200" height="300" alt:alternative text title:제목-->
+        </li>
+    </UL>
+    <UL>
+        <li> "table> : 표 "
+            <!--<table> table </table> -->
+        </li>
+        <li> "tr> : 행 "
+            <!--<tr> table </tr> -->
+        </li>
+        <li> "td> : 테이블데이터 (셀) "
+            <!--<td> table </td> -->
+        </li>
+    </UL>
+    <table border="1">
         <tr>
-            <th>이름</th>     <th>성별</th>   <th>주소</th> <th>회비</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>최진혁</td>  <td>남</td>      <td >청주</td> <td>1000</td>
+            <td> 이름 </td>
+            <td> 성별 </td>
         </tr>
         <tr>
-            <td>최유빈</td>  <td>여</td>      <td>청주</td> <td>500</td>
+            <td> 이름1 </td>
+            <td> 성별1 </td>
         </tr>
-    </tbody>
-    <tfoot>
+    </table>
+    <table border="2">
         <tr>
-            <td>합계</td>  <td></td>      <td></td> <td>1500</td>
+            <td>이름</td>
+            <td>성별</td>
+            <td>주소</td>
         </tr>
-    </tfoot>
-</table>
-	<br>
-<form action="http://localhost/login.php">
-    <p>아이디 : <input type="text" name="id"></p>
-    <p>비밀번호 : <input type="password" name="pwd"></p>
-    <p>주소 : <input type="text" name="address"></p>
-    <input type="submit">
-</form>
-<br>
+        <tr>
+            <td>최진혁</td>
+            <td>남</td>
+            <td>청주</td>
+        </tr>
+        <tr>
+            <td>최유빈</td>
+            <td>여</td>
+            <td>청주</td>
+        </tr>
+    </table>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>성별</th>
+                <th>주소</th>
+                <th>회비</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>최진혁</td>
+                <td>남</td>
+                <td>청주</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>최유빈</td>
+                <td>여</td>
+                <td>청주</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>합계</td>
+                <td></td>
+                <td></td>
+                <td>1500</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <form action="http://localhost/login.php">
+        <p>아이디 : <input type="text" name="id"></p>
+        <p>비밀번호 : <input type="password" name="pwd"></p>
+        <p>주소 : <input type="text" name="address"></p>
+        <input type="submit">
+    </form>
+    <br>
     <form action="">
         <p>text : <input type="text" name="id" value="default value"></p>
         <p>password : <input type="password" name="pwd" value="default value"></p>
@@ -92,37 +138,37 @@
         </p>
     </form>
 
-<br>
-        <form action="http://localhost/color.php">
-            <h1>색상</h1>
-            <select name="color">
-                <option value="red">붉은색</option>
-                <option value="black">검은색</option>
-                <option value="blue">파란색</option>
-            </select>
-            <h1>색상2 (다중선택)</h1>
-            <select name="color2" multiple>
-                <option value="red">붉은색</option>
-                <option value="black">검은색</option>
-                <option value="blue">파란색</option>
-            </select>
-            <input type="submit">
-        </form>
-        <form action="http://localhost/order.php">
-            <p>
-                <h1>색상(단일선택)</h1>
-                붉은색 : <input type="radio" name="color" value="red">
-                검은색 : <input type="radio" name="color" value="black" checked>
-                파란색 : <input type="radio" name="color" value="blue">
-            </p>
-            <p>
-                <h1>사이즈(다중선택)</h1>
-                95 : <input type="checkbox" name="size" value="95">
-                100 : <input type="checkbox" name="size" value="100" checked>
-                105 : <input type="checkbox" name="size" value="105" checked>
-            </p>
-            <input type="submit">
-        </form>
+    <br>
+    <form action="http://localhost/color.php">
+        <h1>색상</h1>
+        <select name="color">
+            <option value="red">붉은색</option>
+            <option value="black">검은색</option>
+            <option value="blue">파란색</option>
+        </select>
+        <h1>색상2 (다중선택)</h1>
+        <select name="color2" multiple>
+            <option value="red">붉은색</option>
+            <option value="black">검은색</option>
+            <option value="blue">파란색</option>
+        </select>
+        <input type="submit">
+    </form>
+    <form action="http://localhost/order.php">
+        <p>
+            <h1>색상(단일선택)</h1>
+            붉은색 : <input type="radio" name="color" value="red">
+            검은색 : <input type="radio" name="color" value="black" checked>
+            파란색 : <input type="radio" name="color" value="blue">
+        </p>
+        <p>
+            <h1>사이즈(다중선택)</h1>
+            95 : <input type="checkbox" name="size" value="95">
+            100 : <input type="checkbox" name="size" value="100" checked>
+            105 : <input type="checkbox" name="size" value="105" checked>
+        </p>
+        <input type="submit">
+    </form>
 
     <form action="http://localhost/form.php">
         <input type="text">
@@ -130,7 +176,7 @@
         <input type="button" value="버튼" onclick="alert('hello world')">
         <input type="reset">
     </form>
-    <!--값만 전송 --> 
+    <!--값만 전송 -->
     <form action="http://localhost/hidden.php">
         <input type="text" name="id">
         <input type="hidden" name="hide" value="egoing">
@@ -138,58 +184,78 @@
     </form>
 
     <br><br>
-    <!-- label --> 
+    <!-- label -->
     <label for="egoing"> 아이디 : </label>
-	<textarea id="egoing"></textarea>
+    <textarea id="egoing"></textarea>
 
 
-	<label>
-		아이디 : <textarea></textarea>
-	</label>
+    <label>
+        아이디 : <textarea></textarea>
+    </label>
 
-	<p>
-	<label for="id_txt">text:</label> 
-	<input id="id_txt" name="id" type="text" value="default value"/> 
-	</p> 
-	<p> 
-	 <label for="password">password:</label> 
-	<input id="password" name="pwd" type="password" value="default value"/>
-	</p> 
-	<p> 
-	<label>textarea: 
-	<textarea cols="50" rows="2">default value</textarea> 
-	</label> 
-	</p> 
-	 <p> 
-	 <label> 
-	 <input name="color" type="checkbox" value="red">붉은색 
-	 </label> 
-	 
-	 <label for="color_blue"> 
-	 <input id="color_blue" name="color" type="checkbox" value="blue">파란색 
-	 </label> 
-	 </p> 
+    <p>
+        <label for="id_txt">text:</label>
+        <input id="id_txt" name="id" type="text" value="default value" />
+    </p>
+    <p>
+        <label for="password">password:</label>
+        <input id="password" name="pwd" type="password" value="default value" />
+    </p>
+    <p>
+        <label>textarea:
+            <textarea cols="50" rows="2">default value</textarea>
+        </label>
+    </p>
+    <p>
+        <label>
+            <input name="color" type="checkbox" value="red">붉은색
+        </label>
 
-    <!-- post방식 --> 
-        <form action="http://localhost/method.php" method="post">
-            <input type="text" name="id">
-            <input type="password" name="pwd">
-            <input type="submit">
-        </form>
+        <label for="color_blue">
+            <input id="color_blue" name="color" type="checkbox" value="blue">파란색
+        </label>
+    </p>
+
+    <!-- post방식 -->
+    <form action="http://localhost/method.php" method="post">
+        <input type="text" name="id">
+        <input type="password" name="pwd">
+        <input type="submit">
+    </form>
+    <br>
+
+    <!-- 파일upload -->
+    <form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="profile">
+        <input type="submit">
+    </form>
+    <br>
+    <!-- font 사용하지 말것 -->
+    <font size="8" color="red"> Hello </font> world
+    <br>
+    <!-- HTML5 입력양식의 속성들 -->
+    <form action="login.php" autocomplete="on">
+        <input type="text" name="id" placeholder="id를 입력해주세요." autofocus>
+        <input type="password" name="password" autocomplete="off" placeholder="비밀번호를 입력해주세요.">
+        <input type="submit">
+    </form>
+    <!-- HTML5 입력 값 체크 -->
+    <form action="register.php">
+        <input type="text" name="id" placeholder="아이디를 입력" required pattern="[a-zA-Z].+[0-9]">
+        <input type="email" name="email" placeholder="이메일 입력">
+        <input type="submit">
+    </form>
+    <li> HTML </li>
+    <li> HTML </li>
+    <li> HTML </li>
+    <li> HTML </li>
 
 
-	<li> HTML </li>
-	<li> HTML </li>
-	<li> HTML </li>
-	<li> HTML </li>
-
-
-	<li> HTML </li>
-	<li> css </li>
-	<li> Javascript </li>
-	<strong> 진하게 표시</strong>
+    <li> HTML </li>
+    <li> css </li>
+    <li> Javascript </li>
+    <strong> 진하게 표시</strong>
 
 </body>
+
 </html>
-
-
