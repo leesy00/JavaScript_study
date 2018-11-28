@@ -19,8 +19,11 @@ def get_number_of_subjects():
     # ===Modify codes below=================
     number_of_subjects = input("과목수를 입력하세요: ")
     # ======================================
-    return number_of_subjects
+    return int(number_of_subjects)
 
+def get_average_score(total_score , number_of_subjects):
+
+    return float(total_score/number_of_subjects)
 
 # Help Funtion - 수정하지 말 것
 def sum_of_scores(number_of_subjects):
