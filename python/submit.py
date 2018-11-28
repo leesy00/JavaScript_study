@@ -17,7 +17,7 @@ import unittest
 
 TOKEN_PICKLE_FILE_NAME = "access_token"
 HOST = "theteamlab.io"
-ASSIGNMENT_NAME = "basic_operations.py"
+ASSIGNMENT_NAME = "exam_grader.py"
 
 
 def getArgumentsParser(argv=None):
