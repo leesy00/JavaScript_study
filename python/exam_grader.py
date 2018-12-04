@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
 
+# 수정햇음
 # 총 과목 수를 Console를 통해 받기
 def get_number_of_subjects():
 
     # """
     # Input:
-    # 	- None
+    # 	- None.
     # Output:
     # 	- number_of_subjects: Integer Type의 총 과목 수
     # Examples(python shell):
@@ -25,7 +26,7 @@ def get_average_score(total_score , number_of_subjects):
 
     return float(total_score/number_of_subjects)
 
-# Help Funtion - 수정하지 말 것
+# Help Funtion - 수정하지 말 것 .
 def sum_of_scores(number_of_subjects):
 
     total_score = 0

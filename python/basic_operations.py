@@ -1,7 +1,7 @@
 # 데이터 형변환================================================
 def str_to_int(string_number):
     # """
-    #   Input:
+    #   Input: .
     # 	-string_number: 숫자형태의 문자열
     # Output:
     # 	-integer: 정수 값
